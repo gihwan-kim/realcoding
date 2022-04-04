@@ -6,6 +6,7 @@ h2-console:
   port: 8081
 
 spring:
+#  r2dbc 비동기 프로토콜 걍 이거 쓸꺼임
   r2dbc:
     initialization-mode: always
     url: r2dbc:h2:mem:///testdb;MODE=MySQL;
